@@ -1,7 +1,5 @@
-lab17
-=====
 public class Dice {
-  static int total=0;
+	static int total=0;
 	static int RollDice(int NumOfDice,int sidesofdice) {
 		total++;
 		// number of dices
@@ -22,15 +20,13 @@ public class Dice {
 	}
 
 }
-
 public class Testprogram {
 
-public static void main(String args[]) {
-  	
-		Dice Object= new Dice();
-		
-		System.out.println(Object.RollDice(2,6));
-		System.out.println(Object.RollDice(2,6));
+	public static void main(String args[]) {
+
+		System.out.println(Dice.Roll_1_Dice());
+		System.out.println(Dice.RollDice(2, 6));
+		System.out.println(Dice.RollDice(2, 6));
 		System.out.println(Dice.RollCount());
-		}
+	}
 }
